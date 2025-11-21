@@ -1,0 +1,34 @@
+1.write a function that inputs a number and the prints the multiplication of table of that number
+2.Write a function cubesum() that accepts an integer and returns the sum of the cubes of individual digits of that number. Use this function to make functions PrintArmstrong() and isArmstrong() to print Armstrong numbers and to find whether a number is an Armstrong number
+3.Write a function prodDigits() that inputs a number and returns the product of digits of that number
+4.If all digits of a number n are multiplied by each other repeating with the product, the one digit number obtained at last is called the multiplicative digital root of n. The number of times digits need to be multiplied to reach one digit is called the multiplicative persistence of n.
+example:
+86 → 48 → 32 → 6     (MDR 6, MPersistence 3)  
+341 → 12 → 2         (MDR 2, MPersistence 2)  
+679 → 378 → 168 → 48 → 32 → 6   (MDR 6, MPersistence 5)
+Using the function prodDigits() of previous exercise write functions MDR() and Mpersistence() that input a number and return its multiplicative digital root and multiplicative persistence respectively.
+5.Write a function sumPdivisors() that finds the sum of proper divisors of a number.proper divisors of a number are those number by which the number is divisible,except the number itself ?
+6.A number is called perfect if the sum of proper divisors of that number is equal to the number.
+For example 28 is a perfect number, since 1+2+4+7+14 = 28. Write a program to print all the perfect numbers in a given range.
+7.Two different numbers are called amicable numbers if the sum of the proper divisors of each is equal to the other number.
+For example 220 and 284 are amicable numbers.
+Sum of proper divisors of 220 = 1+2+ 4+ 5+ 10+ 11+ 20+ 22+ 44+ 55+110 = 284
+Sum of proper divisors of 284 = 1+ 2+ 4+ 71+ 142 = 220.  
+Write a function to print pairs of amicable numbers in a range.
+8.Write a single function to print both amicable pairs and perfect numbers.
+9.Using the function sumPdivisors().write a single line function isPrime() containing only a return statement. This function should return 1 if the number is prime and 0 otherwise.
+10.Write a function convert() that can convert inches to cms and vice versa.
+The first argument should be the length to be converted and the second argument should be a character (‘i’ or ‘c’) denoting the measurement unit of the length given in first argument.
+11.Write a function Product() that accepts two integers and returns their product.
+Don’t use the * operator. Similarly make two more functions Quotient() and Remainder() that accept two integers and return the quotient and remainder respectively, without the use of / and % operators.
+12.Write a function to find whether a character is alphanumeric.
+13.Write a function that accepts a character, if the character is a lower case alphabet its upper case equivalent is returned otherwise the unchanged character is returned.
+14.Write a function to find the sum of this series up to n terms.
+1 + 1/4 + 1/9 + 1/16 + upto n
+15.Write a program to print twin primes less than 1000. If two consecutive odd numbers are both prime  then they are known as twin primes.
+16.Write a function isLeap() which inputs a year and returns 1 if the year is leap otherwise 0.
+17.Write a function isValid() to find whether a date is valid. 
+18.Write a function cmpDate() to compare two dates, it should return 1 if Date1 is before Date2, –1 if Date2 is before Date1 and 0 if dates are same.
+19.Write a function findJulian() that returns Julian day of a date.
+20.Write a function to find difference of two dates.
+Use functions isValid(), isLeap(), and findJulian(), cmpDate() from previous exercises
